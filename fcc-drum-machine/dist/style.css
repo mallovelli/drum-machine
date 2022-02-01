@@ -1,0 +1,30 @@
+#display {
+  width: 200px;
+  background-color: gray;
+  margin: 15px auto;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: blueviolet;
+}
+
+#button-pad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  border-style: dot-dash;
+}
+
+#drum-machine {
+  background-color: whitesmoke;
+  padding-bottom: 1rem;
+  border-style: double;
+  border-radius: 5px;
+}
